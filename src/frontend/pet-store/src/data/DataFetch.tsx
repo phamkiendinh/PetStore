@@ -1,9 +1,9 @@
 import React from 'react'
 
-const HomePage = () => {
+const DataFetch = () => {
   return (
     <div>HomePage</div>
   )
 }
 
-export default HomePage;
+export default DataFetch;

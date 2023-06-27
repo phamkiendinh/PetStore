@@ -1,6 +1,6 @@
 import React from 'react'
-import './style.css'
-function HeaderComponent() {
+
+function FooterComponent() {
   return (
     
     <div className='container-fluid d-flex w-100'>
@@ -22,4 +22,4 @@ function HeaderComponent() {
   )
 }
 
-export default HeaderComponent;
+export default FooterComponent;

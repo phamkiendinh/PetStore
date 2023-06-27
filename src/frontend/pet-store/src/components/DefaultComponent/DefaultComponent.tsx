@@ -1,10 +1,14 @@
 import React from 'react'
 import HeaderComponent from '../HeaderComponent/HeaderComponent'
+import FooterComponent from '../FooterComponent/FooterComponent';
 
 function DefaultComponent() {
   return (
-    <HeaderComponent />
+    <>
+      <HeaderComponent />
+      <FooterComponent />
+    </>
   )
 }
 
-export default DefaultComponent
+export default DefaultComponent;
